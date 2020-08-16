@@ -7,3 +7,17 @@ Note: OpenFace needs to be downloaded to run the final functions from the projec
 4. Run the code section by section to see the output. 
 5. To run the code in "Examples of images processed and predicted on happiness" section. You need to unzip real_data.zip and upload all the photos in the folder to content folder in Google Colab first. 
 
+
+Compared to the project proposal, here is a list of things that aren't included in the project:
+1. Deep neural network models are not used in our project. Due to small dataset size of 509 photos, a neural network is not considered. 
+2. Sub-emotions are not annotated or researched on due to time constraint
+3. No food item other than cake is examined due to time constraint. 
+
+The rest of items mentioned in proposal are fulfilled in the project.
+
+Here is the list of things that aren't mentioned in the proposal but are included in the project:
+1. Photo data are processed and the facial features are extracted
+2. A function is developed to check if the person in the photo is looking at the cake
+3. Random Forest models and Decision Tree models are used to predict happy emotion and intensity of emotion
+4. Besides F1 score, accuracy is also used to measure accuracy of emotion classification models
+4. Mean Square Error, Mean Absolute Error, and Root Mean Square Error are used to measure accuracy for regressor models that predict intensity of happy emotion.
